@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url("./images/bridge.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -4rem;
+    font-weight: 400;
+}
+
+.colon {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 0;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-ctn {
+    display: flex;
+}
+
+.countdown-element {
+    text-align: center;
+    font-weight: 600;
+}
+
+.countdown-element span {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+* {
+    box-sizing: border-box;
+}
